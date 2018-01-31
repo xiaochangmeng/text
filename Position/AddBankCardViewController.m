@@ -31,6 +31,9 @@
     [self.bankCardButton addSubview:self.label1];
     [self.bankCardButton addSubview:self.label2];
     [self.bankCardButton addSubview:self.label3];
+    [self.bankCardButton addSubview:self.label1];
+    [self.bankCardButton addSubview:self.label2];
+    [self.bankCardButton addSubview:self.label3];
     [self.view addSubview:self.button1];
     [self getData];
 }
