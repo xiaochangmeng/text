@@ -38,6 +38,13 @@
     [self.tableView addSubview:self.TextFile1];
     [self.tableView addSubview:self.label4];
     [self.tableView addSubview:self.grayLabel1];
+    [self.view addSubview:self.tableView];
+    [self.tableView addSubview:self.label1];
+    [self.tableView addSubview:self.label2];
+    [self.tableView addSubview:self.label3];
+    [self.tableView addSubview:self.TextFile1];
+    [self.tableView addSubview:self.label4];
+    [self.tableView addSubview:self.grayLabel1];
 //    [self.tableView addSubview:self.label5];
     [self.tableView addSubview:self.rechTextFile];
     [self.tableView addSubview:self.grayLabel2];
